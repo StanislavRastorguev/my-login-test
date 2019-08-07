@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  form( method="post", action='changenickname')
+    div Change username:
+    div.input
+      input(type="text", name="username" value="user")
+    div.actions
+      input(type="submit", value="Submit")
